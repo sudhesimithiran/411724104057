@@ -1,6 +1,6 @@
 body {
     color: green;
-    background-color: rgb(236, 234, 234);
+    background-color: black;
 }
 
 /* p {
@@ -12,12 +12,6 @@ body {
 img {
     height:auto;
     width: 100%;
-}
-@media (min-width: 1024px){
-    img{
-        heigth:auto;
-        width: 100%;
-    }
 }
 
 video {
@@ -52,7 +46,7 @@ h1 {
 nav {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 20px;
 }
 
 #p1 {
@@ -67,11 +61,7 @@ nav {
     font-size: xx-large;
 }
 
-
-@media(min-width: 1024px){
-
 .grid {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-}
 }
